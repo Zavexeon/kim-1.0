@@ -1,0 +1,2 @@
+- add shinpAAAA feature that switches between multiple images on single keypress
+- rotating idle frames

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <div id="image-box"></div>
+    <span id="project-select">
+        /projects/<input id="project-name-input" type="text" placeholder="filename">
+        <input id="load-project-button" type="button" value="Load Project">
+    </span>
+    <div id="ui">
+        <div>
+            idle cycle rate (ms)
+            <input id="idle-cycle-rate-input" type="number" value="500" placeholder="500">
+        </div>
+        <div>
+            <input id="vibrato-key-mapping" type="text" placeholder="Key to map to...">
+            <input id="vibrato-keys-to-press" placeholder="Keys to cycle, ex: abc">
+            <input id="vibrato-cycle-rate" type="number" placeholder="Cycle rate in ms">
+            <input id="add-vibrato-button" type="button" value="Add Vibrato">
+            <div id="vibrato-list"></div>
+        </div>
+    </div>
+    <script src="page/script.js"></script>
+    <style>
+        #image-box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</html>
