@@ -1,5 +1,5 @@
-# kim
-Keyboard Image Mapper
+# KIM
+Keyboard Image Mapper (KIM)
 
 Simple webapp that maps images to keys to display them upon keypress. Intended to make animating to a rythm more natural. 
 
