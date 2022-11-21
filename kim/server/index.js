@@ -9,7 +9,7 @@ const http   = require('http')
 
 const server = http.createServer((request, response) => {
     const parsedURL = url.parse(request.url)
-    const fsPath = `${__rootdir}${parsedURL.pathname}`
+          , fsPath  = `${__rootdir}${parsedURL.pathname}`
 
     // console.log(request.url)
 
